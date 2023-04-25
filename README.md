@@ -1,5 +1,7 @@
 # CeneoScraper
 
+## Selektory CSS składowych opinii w serwisie Ceeneo.pl
+
 | Składowa | Nazwa | Selektor |
 | --- | --- | --- |
 | Opinia | Opinion | div.js\_product-review |
@@ -15,3 +17,7 @@
 | Treść opinii | Content | div.user-post\_\_text |
 | Listę wad | Cons | div.review-feature\_\_col:has(\> div.review-feature\_\_title--negatives) \> div.review-feature\_\_item |
 | Listę zalet | Pros | div.review-feature\_\_col:has(\> div.review-feature\_\_title--positives) \> div.review-feature\_\_item |
+
+## Użyte biblioteki
+- Requests
+- BeautifulSoup4
